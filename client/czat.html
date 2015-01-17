@@ -2,34 +2,22 @@
 <link href='http://fonts.googleapis.com/css?family=Armata&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 <link href="http://getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
-<title>Aplikacja</title>
+<title>Czat</title>
 <script>
-function zmienKolorNaWybrany() {
-var kolorek = document.getElementById('kolorek').value;
-var elem  = document.getElementById('messages');
- elem.style.color = kolorek;
-}
+  function zmienKolorNaWybrany() {
+  var kolorek = document.getElementById('kolorek').value;
+  var elem  = document.getElementById('messages');
+  elem.style.color = kolorek;
+  }
 </script>
 <style>
-html, body {
-margin: 0px;
-display: table;
-width: 100%;
-}
-#main {
 
-display: table;
-width: 90%;
-margin: 0 auto;
-padding: 5%;
-
-}
 </style>
 </head>
 
 <body>
 <section id="main">
-<h3>Prosty chat w Meteorze</h3>
+<h3>Chat w Meteorze</h3>
 
 <p>Kolor czcionki: </p>
 <input type="color" id="kolorek" />
@@ -47,6 +35,9 @@ padding: 5%;
 </section> 
 </template> 
 <template name="input">
-<p>Imię: <input type="text" id="name"></p>
-<p>Wiadomość: <input type="text" id="message"></p>
+<p>Imię:</p>
+<p><input type="text" id="name"></p>
+<p>Wiadomość:</p> 
+<p><input type="text" id="message"></p>
+
 </template>

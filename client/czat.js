@@ -26,4 +26,3 @@ Template.input.events = {
     }
   }
 }
-
