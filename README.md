@@ -1,3 +1,3 @@
 # czat_meteor
 =============
-czat w meteorze
+[czat w meteorze]( http://czat.meteor.com)
